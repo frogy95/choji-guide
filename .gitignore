@@ -1,0 +1,5 @@
+# Claude Code 설정 파일
+.claude/
+
+# macOS
+.DS_Store
