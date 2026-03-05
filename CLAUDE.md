@@ -12,14 +12,22 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ```
 .claude/
   agents/          # Claude Code 서브 에이전트 정의
+    code-reviewer.md
+    prd-to-roadmap.md
+    sprint-close.md
+    sprint-planner.md
   skills/          # Claude Code 스킬 정의
+    karpathy-guidelines/
+    writing-plans/
 docs/
   PRD.md           # 제품 요구사항 문서 (사용하는 프로젝트에서 생성)
-  ROADMAP.md       # 프로젝트 로드맵
+  ROADMAP.md       # 프로젝트 로드맵 (prd-to-roadmap 에이전트가 생성)
   plans/           # 구현 계획 문서 (YYYY-MM-DD-<feature-name>.md)
   sprint/          # 스프린트 문서 및 검증 보고서
     sprint{N}.md
     sprint{N}/     # 스크린샷, Playwright 보고서
+README.md          # 저장소 소개 및 사용 방법
+CLAUDE.md          # Claude Code 설정 파일
 ```
 
 ## 에이전트 파일 형식 (`.claude/agents/*.md`)
